@@ -1,0 +1,30 @@
+//product data
+export const products = [
+    {id: 1, title: "Spawn", issue: "#1", price: 30, image: "images/spawn1.jpg"},
+    {id: 2, title: "Spawn", issue: "#2", price: 30, image: "images/spawn2.jpg"},
+    {id: 3, title: "Spawn", issue: "#3", price: 29, image: "images/spawn3.jpg"},
+    {id: 4, title: "Spawn", issue: "#4", price: 28, image: "images/spawn4.jpg"},
+    {id: 5, title: "Spawn", issue: "#5", price: 28, image: "images/spawn5.jpg"},
+    {id: 6, title: "Spawn", issue: "#6", price: 25, image: "images/spawn6.jpg"},
+    {id: 7, title: "Spawn", issue: "#7", price: 25, image: "images/spawn7.jpg"},
+    {id: 8, title: "Spawn", issue: "#8", price: 24, image: "images/spawn8.jpg"},
+    {id: 9, title: "Spawn", issue: "#9", price: 23, image: "images/spawn9.jpg"},
+    {id: 10, title: "Spawn", issue: "#10", price: 22, image: "images/spawn10.jpg"},
+    {id: 11, title: "Spawn", issue: "#11", price: 20, image: "images/spawn11.jpg"},
+    {id: 12, title: "Spawn", issue: "#12", price: 20, image: "images/spawn12.jpg"},
+    {id: 13, title: "Spawn", issue: "#13", price: 20, image: "images/spawn13.jpg"},
+    {id: 14, title: "Spawn", issue: "#14", price: 18, image: "images/spawn14.jpg"},
+    {id: 15, title: "Spawn", issue: "#15", price: 18, image: "images/spawn15.jpg"},
+    {id: 16, title: "Spawn", issue: "#16", price: 15, image: "images/spawn16.jpg"},
+    {id: 17, title: "Spawn", issue: "#17", price: 15, image: "images/spawn17.jpg"},
+    {id: 18, title: "Spawn", issue: "#18", price: 15, image: "images/spawn18.jpg"},
+    {id: 19, title: "Spawn", issue: "#19", price: 12, image: "images/spawn19.jpg"},
+    {id: 20, title: "Spawn", issue: "#20", price: 12, image: "images/spawn20.jpg"},
+    {id: 21, title: "Spawn", issue: "#21", price: 10, image: "images/spawn21.jpg"},
+    {id: 22, title: "Spawn", issue: "#22", price: 8, image: "images/spawn22.jpg"},
+    {id: 23, title: "Spawn", issue: "#23", price: 8, image: "images/spawn23.jpg"},
+    {id: 24, title: "Spawn", issue: "#24", price: 8, image: "images/spawn24.jpg"},
+    {id: 25, title: "Spawn", issue: "#25", price: 5, image: "images/spawn25.jpg"},
+];
+
+//Role: Source of truth (static data)

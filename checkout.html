@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="../localStorage/images/images/favicon.ico" />
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="headerTitle">The Spawn Vault</h1>
+    <a href="cart.html" class="cart">
+      <img class="cartImage" src="images/cart.png"  alt="cart image">
+      <span class="cartCount" aria-live="polite">0</span>
+    </a>
+  </header>
+
+  <main class="main">
+    <h2 class="mainTitle">Checkout</h2>
+
+    <section class="address-card">
+      <h3 class="card-title">Shipping Info</h3>
+
+      <form id="checkoutForm" class="address-form" novalidate>
+        <label>
+          Full name
+          <input name="fullName" type="text" required minlength="2" autocomplete="name" />
+          <small class="fieldError" data-error-for="fullName"></small>
+        </label>
+
+        <label>
+          Email
+          <input name="email" type="email" required autocomplete="email" />
+          <small class="fieldError" data-error-for="email"></small>
+        </label>
+
+        <label>
+          Address
+          <input name="address1" type="text" required minlength="4" autocomplete="address-line1" />
+          <small class="fieldError" data-error-for="address1"></small>
+        </label>
+
+        <label>
+          City
+          <input name="city" type="text" required minlength="2" autocomplete="address-level2" />
+          <small class="fieldError" data-error-for="city"></small>
+        </label>
+
+        <div class="row">
+          <label>
+            State
+            <input name="state" type="text" required minlength="2" maxlength="2" pattern="[A-Za-z]{2}" autocomplete="address-level1" />
+            <small class="fieldError" data-error-for="state"></small>
+          </label>
+
+          <label>
+            ZIP
+            <input name="zip" type="text" required pattern="\d{5}" maxlength="5" inputmode="numeric" autocomplete="postal-code" />
+            <small class="fieldError" data-error-for="zip"></small>
+          </label>
+        </div>
+
+ <section class="checkoutSummary">
+  <h3>Order Summary</h3>
+  <p>Subtotal: <strong id="checkoutSubtotal">$0</strong></p>
+</section>
+
+
+        <button type="submit" class="primaryBtn">Place order</button>
+
+        <p id="saveStatus" class="saveStatus" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">The Spawn Vault @2026. All right reserved.</footer>
+
+  <script type="module" src="./checkoutPage.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="../localStorage/images/images/favicon.ico">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="headerTitle">The Spawn Vault</h1>
+    <a href="cart.html" class="cart">
+      <img class="cartImage" src="images/cart.png"  alt="cart image">
+      <span class="cartCount" aria-live="polite">0</span>
+    </a>
+  </header>
+
+  <main class="main">
+    <h2 class="mainTitle">Your Cart</h2>
+
+    <section id="cartView"></section>
+
+    <section class="cartTotals">
+      <p>Subtotal: <strong id="subtotal">$0</strong></p>
+    </section>
+
+    <a href="checkout.html" class="checkoutBtn">
+    Proceed to Checkout
+  </a>
+
+
+  </main>
+
+  <footer class="footer">The Spawn Vault @2026. All right reserved.</footer>
+
+  <script type="module" src="./cartPage.js"></script>
+</body>
+</html>
