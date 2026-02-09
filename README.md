@@ -139,4 +139,5 @@ LESSONS LEARNED
     -Planning persistence strategies early in development
 
 Author
+
 Matt Lambert
