@@ -1,8 +1,12 @@
-README
+# Spawn Vault — Comic Book E-Commerce Demo
 
-Spawn Vault is a multi-page front-end e-commerce application built to simulate a collectible comic book storefront.
-The application allows users to browse products, manage a persistent shopping cart, and complete a checkout workflow
-with accessible form validation and input persistence.
+A multi-page front-end e-commerce application demonstrating modular JavaScript architecture, state management, and client-side persistence.
+
+## Live Demo
+https://mattlambo.github.io/comic-e-commerce/
+
+## Key Skills Demonstrated
+State Management • Modular Architecture • Event Delegation • DOM Lifecycle Awareness • Client-Side Persistence
 
 This project was built using vanilla JavaScript to demonstrate mastery of core frontend fundamentals including state
 management, modular architecture, DOM lifecycle awareness, event delegation, and client-side persistence.
@@ -141,3 +145,4 @@ LESSONS LEARNED
 Author
 
 Matt Lambert
+
