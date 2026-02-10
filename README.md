@@ -142,7 +142,17 @@ LESSONS LEARNED
     -Leveraging browser APIs effectively
     -Planning persistence strategies early in development
 
+## Screenshots
+
+![Home](./screenshots/home.png)
+![Cart](./screenshots/cart.png)
+![Checkout](./screenshots/checkout.png)
+
+
+
+
 Author
 
 Matt Lambert
+
 
